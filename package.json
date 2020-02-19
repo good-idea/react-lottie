@@ -40,7 +40,8 @@
     "install-all": "npm i && cd example && npm i",
     "start-example": "cd example && npm start",
     "test:lint": "eslint ./src/**/*.ts ./src/**/*.tsx ./example/src/**/*.ts ./example/src/**/*.tsx",
-    "test:lint:fix": "npm run test:lint -- --fix"
+    "test:lint:fix": "npm run test:lint -- --fix",
+    "prepare": "npm run build"
   },
   "files": [
     "dist"
